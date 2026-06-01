@@ -7,7 +7,7 @@ import { getCourses } from "./lib/getCourses";
 
 export default async function Home() {
   const courses = await getCourses();
-  console.log("COURSES:", courses);
+  
 
   return (
     <main className="min-h-screen bg-black text-white flex">
